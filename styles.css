@@ -1,0 +1,50 @@
+/*Er is gebruik gemaakt van de kleuren #535865 (tekstkleur), #865B9A (contrastkleur) en #DFD9E2 (achtergrondkleur);*/
+/*Het gebruikte lettertype is het Google Font 'Poppins' in de font-weights 300 en 500. Zorg dat je één of twee fallback-fonts instelt van dezelfde categorie;*/
+/*Geef de button een andere kleur wanneer de gebruiker er met de muis overheen beweegt;*/
+/*Bonus: zet de HEX-kleuren om naar HSL-kleuren!*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500display=swap');
+
+body {
+    background-color: #DFD9E2;
+    font-family: Poppins, Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #865B9A;
+}
+
+.top-header {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.second-header {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+p, li {
+    color: #535865
+}
+
+#introduction {
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: square;
+}
+
+button {
+    color: white;
+    background: #865B9A;
+    font-size: large;
+    font-family: Poppins, Verdana, sans-serif;
+}
+
+button:hover {
+    background-color: white;
+    color: #535865;
+}
